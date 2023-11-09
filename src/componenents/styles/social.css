@@ -1,0 +1,74 @@
+.social-container{
+    padding-top: 10%;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    min-height: 100vh;
+    border-bottom: 1px dotted red;
+}
+
+::-webkit-scrollbar{
+    display: none;
+  }
+
+.social-heading{
+    border-bottom: 1px dotted red;
+    background: url('../images/mountain.mp4');
+    background-size: cover;
+}
+
+.card-container{
+    padding: 5% 0%;
+    width: 100%;
+}
+
+.product-card{
+    margin: 2% 20%;
+    letter-spacing: 2px;
+    width: fit-content;
+}
+
+.product-card img, .product-card video{
+    max-width: 100%;
+    box-shadow: 1px 1px 20px red;
+    border-radius: 10%;
+    border: 1px solid whitesmoke;
+    transition: 2s;
+}
+
+.product-card img:hover{
+    max-width: 102%;
+    box-shadow: 5px 5px 20px red;
+}
+
+@media (max-width:800px) {
+    .social-container{
+        justify-content: center;
+        text-align: center;
+        font-size: 8px;
+        padding-top: 20%;
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    .social-heading{
+        font-size: 12px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .product-card{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10%;
+        box-shadow: 10px 0px 10px rgb(100, 0, 0);
+        background-color: black;
+        color: whitesmoke;
+        padding: 5% 10%;
+        border-radius: 15px;
+    }
+
+    .product-card img:hover{
+        width: 450%;
+    }
+}

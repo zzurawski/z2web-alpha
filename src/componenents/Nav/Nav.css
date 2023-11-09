@@ -1,0 +1,45 @@
+.ui.menu {
+    background: #000000;
+    z-index: 1030;
+    position: fixed;
+    font-size: large;
+    
+  }
+
+  .nav {
+    height: fit-content;
+    font-family: 'Arial Narrow';
+  }
+  
+  #home, #web, #products, #contact{
+    background-color: #000000;
+    color: rgb(200, 0, 0);
+    transition: 2s;
+    font-size: larger;
+    padding: 0%;
+    letter-spacing: 10px;
+    font-family: 'Arial Narrow';
+    box-shadow: 0px 1px 25px red;
+  }
+  
+  #home:hover, #web:hover, #products:hover, #contact:hover{
+    background-color: rgb(200, 0, 0);
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  @media (max-width:800px) {
+    .ui.menu{
+      font-size: 10px;
+      font-weight: bold;
+    }
+  
+    #home, #web, #products, #contact{
+      letter-spacing: 2px;
+      padding: 8% 5%;
+      padding-bottom: 0;
+      box-shadow: 0px 0px 0px;
+      font-weight: bold;
+    }}
+  
